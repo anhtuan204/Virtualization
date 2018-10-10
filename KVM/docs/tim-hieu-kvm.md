@@ -33,7 +33,7 @@ Intel và ADM cũng đã cộng tác với dự án. Từ phiên bản 2.6.20, K
 
 - Bảng so sánh KVM với VMWare:
 
-<img src="http://i.imgur.com/SRDtP40.png">
+<img src="https://i.imgur.com/SRDtP40.png">
 
 ### <a name = "cau-truc"></a> 2. Cấu trúc của KVM
 
@@ -41,7 +41,7 @@ Intel và ADM cũng đã cộng tác với dự án. Từ phiên bản 2.6.20, K
 Trong thực tế mỗi CPU ảo xuất hiện như là một tiến trình Linux. Điều này cho phép KVM sử dụng tất cả các tính năng của Linux kernel.
 - Cấu trúc tổng quan:
 
-<img src ="http://i.imgur.com/rnvsnoJ.png">
+<img src ="https://i.imgur.com/rnvsnoJ.png">
 
 - Linux có tất cả các cơ chế của một VMM cần thiết để vận hành (chạy) các máy ảo.
 Chính vì vậy các nhà phát triển không xây dựng lại mà chỉ thêm vào đó một vài thành phần để hỗ trợ ảo hóa.
@@ -73,7 +73,7 @@ một process trong guest-mode bao gồm cả kernel-mode và user-mode.
 - Hình dưới đây mô tả mô hình vận hành của KVM. Đây là một vòng lặp của các hành động diễn ra để vận hành các máy ảo.
 Những hành động này được phân cách bằng 3 phương thức chúng ta đã đề cập trước đó: user-mode, kernel-mode, guest-mode.
 
-<img src="http://i.imgur.com/wG8E4s8.png">
+<img src="https://i.imgur.com/wG8E4s8.png">
 
 Như ta thấy:
 
@@ -103,7 +103,7 @@ Về mặt logic Linux bridge sẽ tạo ra một con switch ảo để cho các
 dụng để ra mạng ngoài.
 - Cấu trúc của Linux Bridge khi kết hợp với KVM - QEMU.
 
-<img src = "http://i.imgur.com/Krk1JRm.png">
+<img src = "https://i.imgur.com/Krk1JRm.png">
 
 - Ở đây:
   <ul>
