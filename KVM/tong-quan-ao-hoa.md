@@ -142,3 +142,5 @@ Paravirtualization hoạt động khác với Full virtualization. Nó không c�
 
 ##  Memory Virtualization
 ##  I/O Virtualization
+
+![](https://i.imgur.com/TZ6l3dp.png)
