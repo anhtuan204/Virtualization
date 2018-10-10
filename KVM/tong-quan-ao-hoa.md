@@ -2,7 +2,7 @@
 
 ## Mục Lục
 
-- [1.Giới thiệu](#gioi-thieu)
+- [1. Giới thiệu](#gioi-thieu)
 
 - [2. Chức năng và lợi ích](#chuc-nang)
 
